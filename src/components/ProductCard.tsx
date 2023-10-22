@@ -2,7 +2,9 @@ import ProductType from "../interfaces/Product/Product";
 
 function ProductCard({ product }: { product: ProductType }) {
   return (
-    <div className="card py-1" style={{ maxWidth: "200px" }}>
+    <div
+      className="card py-1 col mx-auto mx-sm-0"
+      style={{ maxWidth: "200px", maxHeight: "330p" }}>
       <img
         // variant="top"
         src={product.image}

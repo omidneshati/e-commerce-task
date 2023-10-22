@@ -30,7 +30,7 @@ function App() {
             } d-sm-block min-vh-100 w-25 p-3`}>
             <Sidebar />
           </aside>
-          <main className="container  d-flex justify-content-center ">
+          <main className="container d-flex d-sm-block justify-content-center ">
             <Home />
           </main>
         </div>

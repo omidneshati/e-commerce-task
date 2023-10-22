@@ -25,7 +25,7 @@ function Home() {
   console.log("HOOOMI");
   return (
     <>
-      <div className="row row-cols-1 row-cols-sm-4 gap-2 justify-content-center ">
+      <div className="row row-cols-1 row-cols-sm-auto gap-2 justify-content-start">
         {filteredProducts().map((product) => {
           return <ProductCard key={product.id} product={product} />;
         })}
